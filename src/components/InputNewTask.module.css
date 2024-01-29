@@ -1,0 +1,40 @@
+.inputContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputContainer input {
+    width: 40rem;
+    height: 3.375rem;
+    border-radius: 8px;
+    border: 1px solid var(--gray-800);
+    padding: 1rem;
+    background: var(--gray-800);
+    color: var(--gray-300);
+    font-size: 1rem;
+}
+
+.inputContainer button {
+    margin-left: 1rem;
+    width: 5.625rem;
+    height: 3.375rem;
+    border-radius: 8px;
+    border: 0;
+    background: var(--indigo-500);
+    color: var(--white);
+    font-size: 0.875rem;
+    font-weight: 600;
+    transition: background 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputContainer button:hover {
+    background: var(--indigo-400);
+}
+
+.inputContainer button svg {
+    margin-left: 0.5rem;
+}

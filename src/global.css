@@ -1,0 +1,48 @@
+:root {
+    --white: #fff;
+    --gray-100: #e1e1e6;
+    --gray-300: #c4c4cc;
+    --gray-400: #8d8d99;
+    --gray-600: #323238;
+    --gray-700: #29292e;
+    --gray-800: #202024;
+    --gray-900: #121214;
+    --gray-950: #030712;
+    --black: #000;
+
+    --indigo-400: #818cf8;
+    --indigo-500: #6366f1;
+    --indigo-900: #312e81;
+
+    --fuschia-600: #c026d3;
+    --fuschia-950: #4a044e;
+
+    --danger: #e25858;
+}
+
+:focus {
+    outline: transparent;
+    box-shadow: 0 0 0 1px var(--indigo-400);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--gray-900);
+    color: var(--gray-300);
+    -webkit-font-smoothing: antialiased;
+}
+
+body, input, textarea, button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+button {
+    cursor: pointer;
+}
